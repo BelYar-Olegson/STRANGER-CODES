@@ -1,7 +1,5 @@
-@font-face{
-	font-family: 'roboto';
-	src: url("");
-}
 html{
 	font-family: roboto;
+	font-weight: normal;
+	font-style: normal;
 }
