@@ -7,7 +7,7 @@
 	<meta name="author" content="BelYar-Olegson">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
-	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="stylesheet" href="" type="text/css">
 </head>
 <body>
 	<header class="header">
@@ -15,23 +15,24 @@
 			<a href="index.html"><img src="img/nerds-logo.svg" alt=""></a>
 		</div>
 		<nav class="header-navigation">
-			<ul>
-				<li><a href="">Студия</a></li>
-				<li><a href="">Клиенты</a></li>
-				<li><a href="">Магазин</a></li>
-				<li><a href="">Контакты</a></li>
-				<li>
-					<img src="img/cart-icon.svg" alt="">
-					<a href="">Корзина</a>
+			<ul class="nav">
+				<li class="studio"><a href="#">Студия</a></li>
+				<li class="clients"><a href="#">Клиенты</a></li>
+				<li class="magazin"><a href="Catalog.html">Магазин</a></li>
+				<li class="contacts"><a href="#">Контакты</a></li>
+				<li class="cart">
+					<a href="#" class="cart-link">Корзина</a>
 				</li>
-			</ul>			
+			</ul>
 		</nav>
 	</header>
 	<main>
-		<aside class="filtr">
+		<h1>Магазин готовых шаблонов</h1>
+		<section class="filter">
+			<h2>Фильтр</h2>
 			<p>Стоимость:</p>
 			<form action="">
-				<input type="range" min="0" step="1" max="15000" name="" id="" multiple>
+				<input type="range" min="0" step="1" max="15000" name="" id="">
 				<label for="">от</label>
 				<input type="number" name="" id="" placeholder="0">
 				<label for="">до</label>
@@ -65,101 +66,96 @@
 			</form>
 			<form action="">
 				<p>Сортировать:</p>
-				<a href="">По цене</a>
-				<a href="">По типу</a>
-				<a href="">По названию</a>
+				<a href="#">По цене</a>
+				<a href="#">По типу</a>
+				<a href="#">По названию</a>
 				<div class="arrow1"></div>
 				<div class="arrow2"></div>
 			</form>
-		</aside>
-		<section class="catalog">
-			<div>
+		</section>
+		<section class="list">
+			<h2>Каталог сайтов</h2>
+			<article>
 				<img src="" alt="">
 				<img src="" alt="">
 				<div>
-					<a href="">
-						<p>Sedona</p></a>
-					<p>Информационный сайт  для туристов</p>
-					<a href="">9 900 ₽</a>
+					<a href="#"><h2>Sedona</h2></a>
+					<p>Информационный сайт для туристов</p>
+					<a href="#">9 900 ₽</a>
 				</div>
-			</div>
-			<div>
+			</article>
+			<article>
 				<img src="" alt="">
 				<img src="" alt="">
 				<div>
-					<a href="">
-						<p>Pink App</p>
-					</a>
-					<p>Продуктовый лендинг приложения для iOS и Android</p>
-					<a href="">9 900 ₽</a>
+					<a href="#"><h2>Pink App</h2></a>
+					<p>Продуктовый лендинг приложения для iOS и Android</p>
+					<a href="#">9 900 ₽</a>
 				</div>
-			</div>
-			<div>
+			</article>
+			<article>
 				<img src="" alt="">
 				<img src="" alt="">
 				<div>
-					<a href="">
-						<p>Barbershop</p>
-					</a>
-					<p>Сайт салона красоты. Для мужчин, да.</p>
-					<a href="">9 900 ₽</a>
+					<a href="#"><h2>Barbershop</h2></a>
+					<p>Сайт салона красоты. Для мужчин, да.</p>
+					<a href="#">9 900 ₽</a>
 				</div>
-			</div>
-			<div>
+			</article>
+			<article>
 				<img src="" alt="">
 				<img src="" alt="">
 				<div>
-					<a href="">
-						<pp>MISHKA</pp>
-					</a>
-					<p>Интернет-магазин  вязаных игрушек</p>
-					<a href="">9 900 ₽</a>
+					<a href="#"><h2>MISHKA</h2></a>
+					<p>Интернет-магазин вязаных игрушек</p>
+					<a href="#">9 900 ₽</a>
 				</div>
-			</div>
-			<div>
+			</article>
+			<article>
 				<img src="" alt="">
 				<img src="" alt="">
 				<div>
-					<a href="">
-						<p>A Plus</p>
-					</a>
+					<a href="#"><h2>A Plus</h2></a>
 					<p>Лендинг курсов повышения квалификации</p>
-					<a href="">9 900 ₽</a>
+					<a href="#">9 900 ₽</a>
 				</div>
-			</div>
-			<div>
+			</article>
+			<article>
 				<img src="" alt="">
 				<img src="" alt="">
 				<div>
-					<a href="">
-						<p>КВАС</p>
-					</a>
-					<p>Промо-сайт производителя  крафтового кваса</p>
-					<a href="">9 900 ₽</a>
+					<a href="#"><h2>КВАС</h2></a>
+					<p>Промо-сайт производителя крафтового кваса</p>
+					<a href="#">9 900 ₽</a>
 				</div>
-			</div>
+			</article>
 		</section>
 		<div>
-			<a href="">1</a>
-			<a href="">2</a>
-			<a href="">3</a>
-			<a href="">Следующая</a>
+			<a href="#">1</a>
+			<a href="#">2</a>
+			<a href="#">3</a>
+			<a href="#">Следующая</a>
 		</div>
 		<section class="map">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d499.65083547071794!2d30.32308693306376!3d59.938723871609895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2sro!4v1590333752502!5m2!1sru!2sro" width="100%" height="416px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-			<img src="" alt="">
+			<h2>Карта и контактная информация</h2>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d499.65083547071794!2d30.32308693306376!3d59.938723871609895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2sro!4v1590333752502!5m2!1sru!2sro" width="100vw" height="416" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<input type="button" value="">
 			<div class="contacts">
-				<p>NЁRDS DESIGN STUDIO</p>
-				<p>191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8  тел.</p>
-				<p>+7 (812) 275-75-75</p>
-				<a href="">Напишите нам</a>
+				<p>NЁRDS DESIGN STUDIO<br>
+				191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8  тел.<br>
+				+7 (812) 275-75-75</p>
+				<a href="#">Напишите нам</a>
 			</div>
 		</section>
 	</main>
 	<footer>
-		<a href=""><div class="contacts"><img src="img/vk-icon.svg" alt=""></div></a>
-		<a href=""><div class="contacts"><img src="img/fb-icon.svg" alt=""></div></a>
-		<a href=""><div class="contacts"><img src="img/insta-icon.svg" alt=""></div></a>
+		<div>
+			<ul>
+				<li><a href="#"><div class="contacts"><img src="img/vk-icon.svg" alt=""></div></a></li>
+				<li><a href="#"><div class="contacts"><img src="img/fb-icon.svg" alt=""></div></a></li>
+				<li><a href="#"><div class="contacts"><img src="img/insta-icon.svg" alt=""></div></a></li>
+			</ul>
+		</div>
 		<p>Давайте дружить, это выгодно!</p>
 		<p>Скидка 10% для друзей из социальных сетей.</p>
 	</footer>
