@@ -1,76 +1,35 @@
-html {
-	font-family: roboto;
-	font-weight: normal;
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
 	font-style: normal;
+	font-weight: normal;
+	color: #283136;
+
+	background: #FFFFFF;
 }
 
-.header {
-	position: relative;
-	display: flex;
+a {
+	text-decoration: none;
 }
-.header-logo {
-	position: absolute;
-	width: 159.87px;
-	height: 65.02px;
-	left: 140px;
-	top: 48.98px;
-}
-ul.nav {
-	list-style-type: none;
-	display: flex;
+
+.nav {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 30px;
-	align-items: center;
 	text-transform: uppercase;
+	list-style: none;
 }
-ul.nav a {
-	text-decoration: none;
-	color: #000000;
+
+.header {
+		background-color: #EEEEEE;
 }
-.studio {
-	position: absolute;
-	width: 63px;
-	height: 30px;
-	left: 502px;
-	top: 76px;
-}
-.clients {
-	position: absolute;
-	width: 77px;
-	height: 30px;
-	left: 609px;
-	top: 75px;
-}
-.magazin {
-	position: absolute;
-	width: 76px;
-	height: 30px;
-	left: 734px;
-	top: 75px;
-}
-.contacts {
-	position: absolute;
-	width: 86px;
-	height: 30px;
-	left: 854px;
-	top: 75px;
-}
-.cart {
-	position: absolute;
-	width: 75px;
-	height: 30px;
-	left: 1224.84px;
-	top: 75px;
-}
-.cart-link::before {
-	content: url(img/cart-icon.svg);
-	position: absolute;
-	left: 82.29%;
-	right: 16.67%;
-	top: 3.31%;
-	bottom: 96.24%;
-	background: #A6A6A6;
+
+.nav a {
+		color: #000000;
 }
