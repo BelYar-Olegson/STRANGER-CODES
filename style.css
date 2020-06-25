@@ -1,3 +1,14 @@
+.visually-hidden {
+	position: absolute;
+  	width: 1px;
+  	height: 1px;
+  	margin: -1px;
+  	border: 0;
+  	padding: 0;
+  	clip: rect(0 0 0 0);
+  	overflow: hidden;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -9,27 +20,67 @@ body {
 	font-weight: normal;
 	color: #283136;
 
-	background: #FFFFFF;
+	background-color: #FFFFFF;
 }
 
 a {
 	text-decoration: none;
 }
 
+.header {
+		background-color: #EEEEEE;
+		display: flex;
+}
+
 .nav {
+	list-style: none;
+}
+
+.nav a {
+	display: inline-block;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 30px;
 	text-transform: uppercase;
-	list-style: none;
+	color: #000000;
 }
 
-.header {
-		background-color: #EEEEEE;
+.nav a:hover {
+	color: #FB565A;
 }
 
-.nav a {
-		color: #000000;
+.nav a:active,
+.header-logo a:active {
+	opacity: 0.3;
+}
+
+.selected {
+	padding-top: 13px;
+	width: 100%;
+	border-bottom: 2px solid #FB565A;
+}
+
+.slogan-1,
+.slogan-2,
+.slogan-3 {
+	font-weight: 500;
+	font-size: 55px;
+	line-height: 55px;
+}
+
+.slogan-btn-1,
+.slogan-btn-2,
+.slogan-btn-3 {
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #FB565A;
+	border-radius: 3px;
+	padding: 16px 54px;
 }
