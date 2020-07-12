@@ -1,3 +1,5 @@
+/*Общие стили*/
+
 .visually-hidden {
 	position: absolute;
   	width: 1px;
@@ -27,17 +29,11 @@ a {
 	text-decoration: none;
 }
 
+/*Шапка страницы*/
+
 .header {
 		background-color: #EEEEEE;
 		display: flex;
-}
-
-.nav {
-	display: flex;
-}
-
-.nav li {
-	list-style: none;
 }
 
 .nav a {
@@ -76,6 +72,14 @@ a {
 	margin-top: 75px;
 }
 
+.nav li {
+	list-style: none;
+}
+
+.studio {
+	margin-left: 202.13px;
+}
+
 .clients {
 	margin-left: 44px;
 }
@@ -90,21 +94,21 @@ a {
 
 .cart {
 	margin-left: auto;
+	margin-right: 140.16px;
 }
 
-.cart:before {
+.cart a:before {
 	content: url(img/index-img/cart-icon.svg);
+	margin-right: 24.84px;
 }
 
-.selected {
-	width: auto;
-}
-
-.selected:before {
-	padding-top: 13px; 
+.selected a:before {
+	margin-top: 13px; 
 	border-bottom: 2px solid #FB565A;
 
 }
+
+/*Слайдер*/
 
 .slogan-1,
 .slogan-2,
@@ -127,4 +131,8 @@ a {
 	background-color: #FB565A;
 	border-radius: 3px;
 	padding: 16px 54px;
+}
+
+.slider-container {
+	background-color: #EEEEEE;
 }
